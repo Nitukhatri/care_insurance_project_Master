@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		glue = "CareSupremeTest",
 		dryRun = false,
 		monochrome = true,
-		tags =  "@test",
+	//	tags =  "@test",
 		plugin = {"pretty","html:target/cucumber-reports/getFreeQuoteReport.html"}
 	)
 
